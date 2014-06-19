@@ -4,21 +4,21 @@
 <head>
 	<title>hellomindybear</title>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 	<script src="http://malsup.github.com/jquery.cycle2.js"></script>
+	<script src="js/smithscroll.js"></script>
 </head>
 <body>
 	<div id="Container">
 		<header>
 			<h1><a href="index.html">My Creative Space</a></h1>
-			<nav>
+			<nav id="Top">
 				<ul>
-					<li><a href="#">Home</a></li>
-						<ul>
-							<li><a href="PersonalProject/about.html">About Me</a></li>
-						</ul>
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Contact</a></li>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About Me</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="contact.html">Contact</a></li>
 				</ul>
 			</nav>
 			<div class="clear"></div>
@@ -35,26 +35,29 @@
 			data-cycle-slides="> img">
 			<img src="images/bannerused.jpg">
 			<img src="images/banner/banner2.jpg">
+				
+			</div>
+			<div id="SlideNavigation">
+					<p id="Next">Next</p>
+					<p id="Previous">Previous</p>
+				<div id="Pager">
+				</div>
+
 			</div>
 
-			<div id="SlideNavigation">
-				<p id="Next">Next</p>
-				<p id="Previous">Previous</p>
-			<div id="Pager">
-			</div>
-			</div>
+
 		</div>
 
 
 			<br></br>
 			<p>"Art is the stored honey of the human soul."</p>			
+
 		</div>
 		<div id="MainContent">
 			<article>
 				<br></br>
-				<img src="images/mindyicon.jpg" alt="Art">
+				<img src="images/art.png" alt="Art">
 				<br></br>
-				<h1>Art</h1>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -65,9 +68,8 @@
 			</article>
 			<article>
 				<br></br>
-				<img src="images/mindydiy.jpg" alt="Do it yourself">
+				<img src="images/diy.png" alt="Do it yourself">
 				<br></br>	
-				<h1>DIY Projects</h1>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -78,11 +80,9 @@
 				</article>
 			<article>
 				<br></br>
-				<img src="images/mindyfashion.jpg" alt="Fashion">
+				<img src="images/logo_blog.png" alt="Blog">
 				<br></br>	
-				<h1>#OOTD
-
-
+				<h1>
 				</h1>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -96,24 +96,30 @@
 			<div class="clear"></div>
 		</div>
 		<footer>
-			<p>Follow me:</p><br></br>
+			<div>
+			<p>Follow me:</p>
+			<br></br>
 				<ul id="SocialLinks">
-					<li><a href="#">Instagram</a></li>
-					<li><a href="#">Pinterest</a></li>
-					<li><a href="#">Facebook</a></li>
-					<li><a href="#">Tumblr</a></li>
+					<li><a href="http://instagram.com/heyymbear">Instagram</a></li>
+					<li><a href="https://www.facebook.com/hellomindy.bear">Facebook</a></li>
 				</ul>
+			</div>
+			<br></br>
+			<br></br>
 			<br></br>
 			<p>Subscribe for updates!</p>
 			<br></br>
 			<form name="myForm" action="#" method="POST">
 				<label for="fName">First Name</lable>
-				<input type="text" id="fName" name="firstName">
+				<input type="text" id="fName" name="firstName"> 
 				<label for="enauk">Email</label>
 				<input type="email" id="Date" name="date" required>
 				<input type="submit" value="Subscribe">
 			</form>
+
 		</footer>
+
+			<div id="Scroll"><a href="#Top">Scroll Up</a></div>
 		<br></br>
 	</div>
 </body>
