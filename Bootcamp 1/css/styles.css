@@ -1,0 +1,185 @@
+/* Reset Styles */
+body,h1,h2,h3,p,ul,ol,li{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #859a7c;
+}
+
+div{
+	background-color: #fff;
+
+}
+
+h1 a{
+	background: url("../images/logoicon.jpg") no-repeat;
+	background-size: 95%;
+	height: 150px;
+	width: 350px;
+	display: inline-block;
+	text-indent: -9999px;
+}
+
+#MainContent article{
+	width: 30%;
+	background-color: #fff;
+	margin: 2% 1.4%;
+	min-height: 400px;
+	float: left;
+	outline: 2.5px solid #859a7c;
+}
+#MainContent article:first-child{
+	margin-left: 2.2%;
+}
+
+#Container{
+	width: 999px;
+	margin: 0 auto;
+}
+
+header{
+	width: 96%;
+	margin: 0 2%;
+	min-height: 50px;
+}
+#MainContent, footer{
+	width: 96%; 
+	margin: 2% 2% 0;
+	min-height: 100px;
+}
+
+#Banner{
+	width: 100%;
+	min-height: 160px;
+	margin-top: 25px;
+	position: relative;
+}
+
+
+p{
+	text-align: center;
+	font-size: 30px;
+	font-family: pacifico;
+	font-weight: 3px;
+}
+
+article h1{
+	text-align: center;
+	font-size: 20px;
+	font-family: century gothic;
+	font-weight: 2px;
+}
+
+article img{
+	width:50%;
+	padding: 0 82px;
+}
+
+article p{
+	text-align: center;
+	font-size: 14px;
+	font-family: century gothic;
+	font-weight: 1px;
+}
+
+
+footer{
+	min-height: 200px;
+	text-align: center;
+}
+
+footer img{
+	width: 30%;
+}
+
+
+footer p{
+	text-align: center;
+	font-family: century gothic;
+	font-size: 16px;
+}
+
+.clear{
+	clear: both;
+}
+
+
+/* Nav Styles */
+
+nav{
+	margin-left: 631px;
+	margin-bottom: 10px;
+}
+
+
+nav ul li{
+	float: left;
+	list-style: none;
+	position: relative;
+}
+
+nav ul li a{
+	background: #b08383;
+	color: #ccc;
+	text-transform: uppercase;
+	padding: 10px 10px 10px;
+	display: inline-block;
+
+}
+
+nav ul li a:hover{
+	background: #ccc;
+	color: #000;
+}
+
+
+/*Slide Show Styles*/
+
+#Next{
+	background: url("../images/banner/next.jpg") no-repeat;
+	width: 5%;
+	bottom: 980px;
+	right: 0;
+	position: absolute;
+	text-indent: -9999px;
+
+}
+
+#Previous{
+	background: url("../images/banner/previous.jpg") no-repeat;
+	width: 10%;
+	position: absolute;
+	text-indent:-9999px;
+}
+
+/*Footer Navigation*/
+
+#SocialLinks{
+
+}
+#SocialLinks li{
+	float: left;
+	list-style: none;
+}
+#SocialLinks li a{
+	background: url("../images/socialmediaicons.jpg") no-repeat;
+	margin-left: 300px;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	text-indent: -9999px;
+}
+
+#SocialLinks li:first-child{
+	background-position: 10px -105px;
+}
+#SocialLinks li:nth-child(2) a{
+	background-position: -55px 200px;
+}
+
+#SocialLinks li:nth-child(3) a{
+	width: 60px;
+	background-position: -110px 0;
+}
