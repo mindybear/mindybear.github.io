@@ -1,0 +1,34 @@
+div{
+	width: 100px;
+	height: 100px;
+
+
+}
+
+#One{
+	background-color: #04B486;
+	float: left;
+}
+
+#Two{
+	background-color: #FF00BF;
+	float: right;
+}
+
+#Three{
+	background-color: #2E64FE;
+	position: absolute;
+	bottom: 0;
+
+}
+
+#Four{
+	background-color: #DBA901;
+	position: absolute;
+	bottom: 0;
+	right:0;
+}
+
+h1{
+	text-align: center;
+}

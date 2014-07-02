@@ -1,0 +1,38 @@
+
+
+h1{
+	width: 100px;
+	height: 100px;
+	position: relative;
+	background-color: #04B486;
+	top:0;
+	left: 400px;
+	text-align: center;
+	line-height: 100px
+}
+
+h1:before{
+	content: "2";
+	display: block;
+	width: 100px;
+	height: 100px;
+	background-color: #ccc;
+	position: absolute;
+	top: 0;
+	left: 113px;
+	text-align: center;
+
+}
+
+h1:after{
+	content: "3";
+	display: block;
+	width: 100px;
+	height: 100px;
+	background-color: #2E64FE;
+	position: absolute;
+	top: 0;
+	left: 224px;
+	text-align: center;
+
+}
